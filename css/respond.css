@@ -1,0 +1,90 @@
+@media screen and (min-width: 769px) {
+    #header .main_nav .nav_1 {
+        left: 0 !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    #wrap {width: 100%;}
+    #header {height: 90px;}
+    #header .logo {margin: 0 auto}
+    #header .main_nav {display: block;}
+    #header .main_nav .menu {display: block; width: 24px; height: 24px; background: url(./../images/ico_menu.png) no-repeat; border: 0; position: absolute; top: 70px; left: 60px; z-index: 20;}
+    #header .main_nav .nav_1 {position: fixed; top: 0; left: -400px; z-index: 10; width: 300px; height: 100vh; background-color: rgba(255, 255, 255, .8); padding-top: 100px}
+    #header .main_nav .nav_1 > li {float: none; padding-bottom: 15px}
+    #header .main_nav .nav_1 .sub {width: 300px;}
+    #header .main_nav .nav_1 .sub.sub1 {position: relative; left: 0;}
+    #header .main_nav .nav_1 .sub.sub2 {position: relative; left: 0;}
+    #header .main_nav .nav_1 .sub.sub3 {position: relative; left: 0;}
+    #header .main_nav .nav_1 .sub li a {display: block; font-weight: normal; font-size: 13px; text-align: center; line-height: 36px;}
+
+    #slider .slider_area {float:left; width: 100%; overflow: hidden;}
+    #slider .slider_area .photo {position: relative; width: 600%;}
+    #slider .slider_area .photo li {float: left;}
+
+    #container .bestItem .title {font-size: 30px; font-weight: 700;}
+    #container .bestItem .item {width: 60%}
+    #container .bestItem .item li {width: 50%; box-sizing: border-box;}
+    #container .bestItem .item img {width: 100%;}
+    #container .bestItem .item .txt_list {top: 0; width: 81%; height: 97%;  color: #fff; background-color: rgba(0, 0, 0, 0.4); text-align: center; line-height: 110px; opacity: 0;}
+    #container .bestItem .item .txt_list .more {left: 32%;}
+    #container .info {width: 100%; margin: 0 auto; padding: 50px 0 150px 0;}
+    #container .info .news {float: left; padding: 0 40px; margin: 0 40px; width: 30%;}
+    #container .info .q_and_a {float: left; width: 30%;}
+    #container .pro {padding: 80px 0 60px 0; width: 100%; margin: 0 auto;}
+    #container .pic1 {float: none; width: 100%; margin: 23px 0; text-align: center}
+    #container .pic1 img {width: 82%; padding-left: 30px;}
+    #container .pic2 {float: none; margin-bottom: 23px; text-align: center;}
+    #container .pic2 .thumb2_1 {padding: 0 30px}
+    #container .pic3 {float: none; margin-top: 23px; text-align: center;}
+    #container .pic2 img {width: 38%}
+    #container .pic3 .thumb3_1 {padding: 0 30px;}
+    #container .pic3 img {width: 38%}
+
+    #footer {height: 150px; width: 100%}
+    #footer .ft_nav .ft_gnb {padding-left: 15px}
+    #footer .copy {float: right; font-size: 12px; padding-right: 20px}
+}
+
+@media screen and (max-width: 375px) {
+    #wrap {width: auto;}
+    #header {height: 90px;}
+    #header .logo {margin: 0 auto}
+    #header .main_nav {display: block;}
+    #header .main_nav .menu {display: block; width: 24px; height: 24px; background: url(./../images/ico_menu.png) no-repeat; border: 0; position: absolute; top: 70px; left: 40px; z-index: 20;}
+    #header .main_nav .nav_1 {position: fixed; top: 0; left: -400px; z-index: 10; width: 200px; height: 100vh; background-color: rgba(255, 255, 255, .8); padding-top: 100px}
+    #header .main_nav .nav_1 > li {float: none; padding-bottom: 15px}
+    #header .main_nav .nav_1 .sub {width: 200px;}
+    #header .main_nav .nav_1 .sub.sub1 {position: relative; left: 0;}
+    #header .main_nav .nav_1 .sub.sub2 {position: relative; left: 0;}
+    #header .main_nav .nav_1 .sub li a {display: block; font-weight: normal; font-size: 13px; text-align: center; line-height: 36px;}
+    #header .main_nav .nav_2 .gnb2 li {display: none}
+
+    #slider .slider_area {float:left; width: 100%; overflow: hidden;}
+    #slider .slider_area .photo {position: relative; width: 1000%;}
+
+    #container .bestItem .title {font-size: 30px; font-weight: 700;}
+    #container .bestItem .item {width: 100%}
+    #container .bestItem .item li {width: 50%; box-sizing: border-box;}
+    #container .bestItem .item img {width: 100%;}
+    #container .bestItem .item .txt_list {top: 0; width: 79%; height: 97%;  color: #fff; background-color: rgba(0, 0, 0, 0.4); text-align: center; line-height: 110px; opacity: 0;}
+    #container .bestItem .item .txt_list .more {left: 30%;}
+    #container .info {width: 100%; margin: 0 auto; padding: 50px 0 150px 0;}
+    #container .info .news {float: none; width: 70%; margin: 0 auto; padding-bottom: 15px;}
+    #container .info .q_and_a {float: none; width: 70%; margin: 0 auto; padding-top: 15px;}
+    #container .pro {padding: 80px 0 60px 0; width: 100%; margin: 0 auto;}
+    #container .pic1 {float: none; width: 100%; margin: 23px 0; text-align: center}
+    #container .pic1 img {width: 70%; padding-left: 0px;}
+    #container .pic2 {float: none; margin-bottom: 23px; text-align: center;}
+    #container .pic2 .thumb2_1 {padding: 0 30px 0 0}
+    #container .pic3 {float: none; margin-top: 23px; text-align: center;}
+    #container .pic2 img {width: 30%}
+    #container .pic3 .thumb3_1 {padding: 0 30px 0 0}
+    #container .pic3 img {width: 30%}
+
+    #footer {height: 150px; width: 100%}
+    #footer .ft_nav .ft_gnb {padding-left: 15px;}
+    #footer .ft_nav .ft_gnb li {padding: 7px}
+    #footer .ft_nav a {font-size: 12px; line-height: 12px}
+    #footer .ft_name {float: none;font-size: 13px;text-align: center; padding-bottom: 10px;}
+    #footer .copy {float: none; font-size: 10px; text-align: center;}
+}
